@@ -26,14 +26,12 @@ def get_item(item):
             rx.hstack(
                 rx.button(rx.icon(tag="arrow_up")),
                 rx.text("0", color="white"),
-                rx.button(rx.icon(tag="arrow_down")),
-                rx.text("0", color="white"),
             ),
         ),
         padding_left="10%",
         width='80%',
-        
         ),
+        
         border="1px",
         width='800px',
         padding_top="20px",
